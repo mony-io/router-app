@@ -8,5 +8,6 @@ const DUMMY_QUOTES = [
 const AllQuotes = () => {
   return <QuoteList quotes={DUMMY_QUOTES} />
 };
+console.log(AllQuotes());
 
 export default AllQuotes;
