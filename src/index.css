@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: #e7f8f8;
+  background-color: #f7f7f7;
 }
 
 .centered {
@@ -24,24 +26,24 @@ body {
 
 .btn {
   text-decoration: none;
-  background-color: teal;
+  background-color: #2c3639;
   color: white;
   border-radius: 4px;
   padding: 0.75rem 1.5rem;
-  border: 1px solid teal;
+  border: 1px solid #2c3639;
   cursor: pointer;
 }
 
 .btn:hover,
 .btn:active {
-  background-color: #11acac;
-  border-color: #11acac;
+  background-color: #3f4e4f;
+  border-color: #3f4e4f;
 }
 
 .btn--flat {
   cursor: pointer;
   font: inherit;
-  color: teal;
+  color: #3f4e4f;
   border: none;
   background-color: none;
   text-decoration: none;
@@ -51,6 +53,6 @@ body {
 
 .btn--flat:hover,
 .btn--flat:active {
-  background-color: teal;
-  color: white;
+  background-color: #5f7161;
+  color: #3f4e4f;
 }

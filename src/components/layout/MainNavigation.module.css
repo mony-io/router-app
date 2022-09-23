@@ -5,12 +5,13 @@
   padding: 0 10%;
   justify-content: space-between;
   align-items: center;
-  background-color: #008080;
+  background-color: #2c3639;
 }
 
 .logo {
   font-size: 2rem;
-  color: white;
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
 }
 
 .nav ul {
@@ -27,11 +28,11 @@
 
 .nav a {
   text-decoration: none;
-  color: #88dfdf;
+  color: #d6cda4;
 }
 
 .nav a:hover,
 .nav a:active,
 .nav a.active {
-  color: #e6fcfc;
+  color: #fbf2cf;
 }

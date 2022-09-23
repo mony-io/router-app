@@ -1,11 +1,12 @@
 .quote {
-  background-color: #162b2b;
-  color: white;
+  background-color: #fff;
+  color: black;
   border-radius: 6px;
   padding: 3rem;
   margin: 3rem auto;
   width: 90%;
   max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .quote p {
@@ -16,5 +17,5 @@
   font-style: italic;
   font-size: 1.5rem;
   text-align: right;
-  color: #a1e0e0;
+  color: #5f7161;
 }

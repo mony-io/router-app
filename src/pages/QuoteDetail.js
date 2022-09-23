@@ -16,7 +16,7 @@ const QuoteDetail = () => {
   const { sendRequest, status, data: loadedQuote, error } = useHttp(getSingleQuote, true);
 
   useEffect(() => {
-    sendRequest();
+    sendRequest(quoteId);
   }, [sendRequest, quoteId]);
 
 
@@ -32,7 +32,7 @@ const QuoteDetail = () => {
     return <p className='centered'>{error}</p>
   }
 
-  if (!loadedQuote) {
+  if (!loadedQuote.text) {
     return <p>No quote found!</p>;
   }
 

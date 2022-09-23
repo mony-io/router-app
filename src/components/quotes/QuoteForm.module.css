@@ -34,12 +34,6 @@
   font-size: 1.25rem;
 }
 
-.control input:focus,
-.control textarea:focus {
-  background-color: #cbf8f8;
-  outline-color: teal;
-}
-
 .actions {
   text-align: right;
 }
